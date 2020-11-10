@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 //        if (id == R.id.action_settings) {
 //            return true;
 //        }
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.itemRed:
                 baseLayout.setBackgroundColor(Color.RED);
                 return true;
