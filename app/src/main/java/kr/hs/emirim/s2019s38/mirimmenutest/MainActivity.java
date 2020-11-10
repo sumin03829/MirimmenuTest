@@ -62,20 +62,14 @@ public class MainActivity extends AppCompatActivity {
 //            return true;
 //        }
         switch (item.getItemId()) {
-            case R.id.itemRed:
+            case R.id.item1:
                 baseLayout.setBackgroundColor(Color.RED);
                 return true;
-            case R.id.itemGreen:
+            case R.id.item2:
                 baseLayout.setBackgroundColor(Color.GREEN);
                 return true;
-            case R.id.itemBlue:
+            case R.id.item3:
                 baseLayout.setBackgroundColor(Color.BLUE);
-                return true;
-            case R.id.rotate_45:
-                btn1.setRotation(45);
-                return true;
-            case R.id.scale_2:
-                btn1.setScaleX(2);
                 return true;
         }
 
